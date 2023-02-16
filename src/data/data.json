@@ -62,5 +62,17 @@
             "title":"All in one",
             "body":"Получи все необходимые инструменты - в одной платформе"
         }
-    ]
+    ],
+    "Features":{
+        "Features_1":[
+            "Manage such a pair as a single asset;",
+            "Smart SL/TP;",
+            "SL/TP on Synthetic assets;",
+            "Pending Orders;",
+            "Buy one asset and sell another as a single trade;",
+            "SL with the Time delay;",
+            "Set of the breakeven;",
+            "Trailing Stop Orders;"
+        ]
+    }
 }

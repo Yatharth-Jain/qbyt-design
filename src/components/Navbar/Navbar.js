@@ -5,7 +5,7 @@ import BluredDiv from "../SmallComponents/BluredDiv"
 export default function Navbar() {
   const navLinks=[
     {title:"Strategy",to:"#strategySection"},
-    {title:"Features",to:""},
+    {title:"Features",to:"#featuresSection"},
     {title:"Roadmap",to:""},
     {title:"Why Qbyt?",to:"#whyqbytSection"},
     {title:"For brokers",to:""},

@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.svg";
-import lock from "../../images/componentProps/Hero/lock.png";
+// import lock from "../../images/componentProps/Hero/lock.png";
 import HeroBg from "../../images/componentProps/Hero/heroBg.svg";
 
 export default function Hero() {

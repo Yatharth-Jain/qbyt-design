@@ -9,7 +9,7 @@ export default function Strategy() {
       <div className="flex w-full h-[100vh] item-center items-center">
         <div className="w-[50%]">
           <div className="h-full w-full max-w-[600px]">
-            <h2 className="text-4xl font-medium mb-[24px] flex flex-col">
+            <h2 className="text-4xl font-medium mb-[24px] flex flex-col font-sans">
               <span>High Profitability</span>
               <span>of Market Neutral Strategies</span>
             </h2>
@@ -31,13 +31,13 @@ export default function Strategy() {
           </div>
         </div>
         <div className="flex w-[50%] items-center ">
-            <BluredDiv classes="mx-[10%] w-full h-[300px] rounded-[20px]">
+            <BluredDiv classes="mx-[10%] w-full h-[300px] rounded-[20px]" blur="6px">
                 <div className="w-full h-full grid grid-cols-3 p-[56px]">
                     {
                         StrategiesStats.map(e=>{
                             return(
                                 <div className="relative">
-                                    <h4 className={`font-LinkFontHeading text-4xl font-bold ${e.color=='secondary' ? 'text-SecondaryColor':''}`}>{e.value}</h4>
+                                    <h4 className={`font-LinkFontHeading text-4xl font-bold ${e.color==='secondary' ? 'text-SecondaryColor':''}`}>{e.value}</h4>
                                     <h6 className="w-[70%] font-thin uppercase text-xs pt-1">{e.title}</h6>
                                     {
                                         e.info && <div className="absolute right-[20px] top-0 opacity-50"><img src={infoBtn} alt="" srcset="" /></div>

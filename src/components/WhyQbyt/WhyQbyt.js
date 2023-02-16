@@ -5,8 +5,8 @@ import {whyQbyt} from '../../data/data.json'
 
 export default function WhyQbyt() {
   return (
-    <section className='h-[100vh] w-full flex flex-col justify-around py-10' id='whyqbytSection'>
-      <h1 className='font-normal font-HeadingFontFamily text-6xl '>Why Qbyt?</h1>
+    <section className='min-h-[100vh] w-full flex flex-col justify-around py-10' id='whyqbytSection'>
+      <h1 className='font-normal font-HeadingFontFamily text-6xl mb-10'>Why Qbyt?</h1>
       <div className='grid grid-cols-3 gap-[30px]'>
         {
           whyQbyt.map((e)=>{
