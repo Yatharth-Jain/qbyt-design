@@ -7,12 +7,12 @@ export default function Navbar() {
     {title:"Strategy",to:"#strategySection"},
     {title:"Features",to:""},
     {title:"Roadmap",to:""},
-    {title:"Why Qbyt?",to:""},
+    {title:"Why Qbyt?",to:"#whyqbytSection"},
     {title:"For brokers",to:""},
     {title:"Contact",to:""},
   ]
   return (
-    <nav className='fixed right-[10%] top-[14px]' id='navbar'>
+    <nav className='fixed right-[10%] top-[14px] z-50' id='navbar'>
       <BluredDiv classes="w-[318px] h-[90px] ">
         <ul className="w-full h-full grid grid-cols-3 p-[18px 20px] items-center ">
           {navLinks.map(li=>{

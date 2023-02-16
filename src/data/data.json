@@ -1,7 +1,7 @@
 {
     "StrategiesStats":[
         {
-            "value":32,
+            "value":"32",
             "title":"total closed trades",
             "color":"primary"
         },
@@ -34,6 +34,33 @@
             "title":"Net Profit",
             "color":"primary",
             "info":"Net profit is a company's total earnings after subtracting all expenses."
+        }
+    ],
+    "whyQbyt":[
+        {
+            "icon":"Vector-0.svg",
+            "title":"Automated screeners to find assets to trade",
+            "body":"Get the assets ready to trade in current market conditions"
+        },
+        {
+            "icon":"Vector-1.svg",
+            "title":"Spread Trading (Synthetic assets)",
+            "body":"Получи все необходимые инструменты - в одной платформе"
+        },
+        {
+            "icon":"Vector-2.svg",
+            "title":"Save your hardware and resources",
+            "body":"Don’t overload your computer scanning the whole market - let our servers do it for you"
+        },
+        {
+            "icon":"Vector-3.svg",
+            "title":"We do the hard and boring part for you",
+            "body":"Want to trade after work? No problem! Just Login into the Qbyt platform and trade!"
+        },
+        {
+            "icon":"Vector-4.svg",
+            "title":"All in one",
+            "body":"Получи все необходимые инструменты - в одной платформе"
         }
     ]
 }

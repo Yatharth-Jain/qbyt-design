@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors:{
         "BluredDivColor":"var(--BluredDivColor)",
-        "SecondaryColor":"var(--SecondaryColor)"
+        "SecondaryColor":"var(--SecondaryColor)",
+        "SecondaryColorOpacity":"var(--SecondaryColorOpacity)"
       },
       fontSize:{
 

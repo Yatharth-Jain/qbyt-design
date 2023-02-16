@@ -9,6 +9,7 @@
     --HeadingFontFamily:'Lexend', sans-serif;
     --LinkFontHeading:'Roboto Condensed', sans-serif;
     --SecondaryColor:#D5FE6B;
+    --SecondaryColorOpacity:hsla(77, 99%, 71%, 0.12);
 }
 body{
     background-color: var(--MainBackgroundColor);

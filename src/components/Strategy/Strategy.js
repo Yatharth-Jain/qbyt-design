@@ -1,10 +1,9 @@
 import React from "react";
 import BluredDiv from "../SmallComponents/BluredDiv";
-import Data from '../../data/data.json';
+import {StrategiesStats} from '../../data/data.json';
 import infoBtn from '../../images/componentProps/Strategy/infoBtn.svg'
 
 export default function Strategy() {
-    var {StrategiesStats} = Data;
   return (
     <section className="w-full" id="strategySection">
       <div className="flex w-full h-[100vh] item-center items-center">
