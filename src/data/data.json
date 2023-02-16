@@ -1,0 +1,39 @@
+{
+    "StrategiesStats":[
+        {
+            "value":32,
+            "title":"total closed trades",
+            "color":"primary"
+        },
+        {
+            "value":"90.6%",
+            "title":"percent profitable",
+            "color":"secondary",
+            "info":"Net profit is a company's total earnings after subtracting all expenses."
+        },
+        {
+            "value":"0.36",
+            "title":"avg trade",
+            "color":"primary",
+            "info":"Net profit is a company's total earnings after subtracting all expenses."
+        },
+        {
+            "value":"20.4",
+            "title":"profit factor",
+            "color":"secondary",
+            "info":"Net profit is a company's total earnings after subtracting all expenses."
+        },
+        {
+            "value":"32%",
+            "title":"max drawdown",
+            "color":"primary",
+            "info":"Net profit is a company's total earnings after subtracting all expenses."
+        },
+        {
+            "value":"11k$",
+            "title":"Net Profit",
+            "color":"primary",
+            "info":"Net profit is a company's total earnings after subtracting all expenses."
+        }
+    ]
+}
